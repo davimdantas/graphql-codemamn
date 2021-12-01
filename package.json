@@ -1,19 +1,25 @@
 {
-  "name": "graphql-codemamn",
-  "version": "1.0.0",
-  "description": "Following graphql codemamn course",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davimdantas/graphql-codemamn.git"
-  },
-  "author": "davimdantas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/davimdantas/graphql-codemamn/issues"
-  },
-  "homepage": "https://github.com/davimdantas/graphql-codemamn#readme"
+	"name": "graphql-codemamn",
+	"version": "1.0.0",
+	"description": "Following graphql codemamn course",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/davimdantas/graphql-codemamn.git"
+	},
+	"author": "davimdantas",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/davimdantas/graphql-codemamn/issues"
+	},
+	"homepage": "https://github.com/davimdantas/graphql-codemamn#readme",
+	"dependencies": {
+		"apollo-server": "^3.5.0",
+		"graphql": "^15.7.2",
+		"nodemon": "^2.0.15"
+	}
 }
