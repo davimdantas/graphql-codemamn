@@ -1,0 +1,19 @@
+{
+  "name": "graphql-codemamn",
+  "version": "1.0.0",
+  "description": "Following graphql codemamn course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davimdantas/graphql-codemamn.git"
+  },
+  "author": "davimdantas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davimdantas/graphql-codemamn/issues"
+  },
+  "homepage": "https://github.com/davimdantas/graphql-codemamn#readme"
+}
